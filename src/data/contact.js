@@ -17,9 +17,9 @@ const contactInfo = {
     },
   ],
 
-  resumePdf: "/VISHNU_K.pdf",
-  resumeDoc: "/VISHNU_K.docx",
-  resume: "/VISHNU_K.pdf",
+  resumePdf: "/VISHNU.pdf",
+  resumeDoc: "/VISHNU.docx",
+  resume: "/VISHNU.pdf",
 };
 
 export default contactInfo;
