@@ -258,8 +258,8 @@ const ContactInfo = () => {
         {/* Resume Downloads */}
         <div className="flex w-full flex-col sm:w-auto sm:flex-row items-center justify-center gap-4">
           <a
-            href={contactInfo.resumePdf || "/VISHNU_K.pdf"}
-            download="VISHNU_K.pdf"
+            href={contactInfo.resumePdf || "/VISHNU.pdf"}
+            download="VISHNU.pdf"
             className="resume-button group w-full sm:w-auto inline-flex items-center justify-center gap-2 text-center"
           >
             <span>Download Resume (.PDF)</span>
@@ -280,8 +280,8 @@ const ContactInfo = () => {
           </a>
 
           <a
-            href={contactInfo.resumeDoc || "/VISHNU_K.docx"}
-            download="VISHNU_K.docx"
+            href={contactInfo.resumeDoc || "/VISHNU.docx"}
+            download="VISHNU.docx"
             className="resume-button-doc group w-full sm:w-auto inline-flex items-center justify-center gap-2 text-center"
           >
             <span>Download Resume (.DOC)</span>
