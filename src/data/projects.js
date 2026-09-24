@@ -25,6 +25,36 @@ const projects = [
     link: "https://github.com/Kvishnu1805",
   },
   {
+    id: "career-ai",
+    name: "CareerAI — AI-Powered Career & Interview Assistant",
+    category: "Full-Stack & AI (Student Project)",
+    shortDescription:
+      "A full-stack platform that analyzes resumes, simulates AI-graded interviews, and generates personalized learning roadmaps powered by LLMs.",
+    description:
+      "CareerAI is a full-stack AI platform designed to accelerate career readiness for freshers and job seekers. The platform enables users to upload and analyze resumes with AI insights, benchmark skills against industry standards, simulate technical and behavioral interviews with real-time AI grading and feedback, and follow personalized learning roadmaps. Built with modern web technologies, it integrates LLM APIs (OpenAI/Gemini) for intelligent career guidance and includes an optional RAG-based AI mentor for learning support. The system features secure JWT authentication, responsive dashboards, and a scalable architecture designed for deployment on cloud platforms.",
+    responsibilities: [
+      "Built a full-stack career assistance platform using React.js, FastAPI, and MySQL.",
+      "Integrated LLM APIs (OpenAI/Gemini) for AI-powered resume analysis, interview preparation, and career guidance.",
+      "Implemented JWT authentication, user profiles, skills management, and responsive dashboards.",
+      "Developed optional RAG-based AI mentor using ChromaDB for personalized learning support.",
+    ],
+    technologies: [
+      "React.js",
+      "FastAPI",
+      "Python",
+      "MySQL",
+      "SQLAlchemy",
+      "JWT Authentication",
+      "OpenAI API",
+      "Gemini API",
+      "ChromaDB (RAG)",
+      "REST APIs",
+      "Tailwind CSS",
+    ],
+    livelink : "https://career-ai-rho-two.vercel.app/",
+    link: "https://github.com/Kvishnu1805/careerAI",
+  },
+  {
     id: "portfolio-website",
     name: "Personal Portfolio Website",
     category: "Frontend Development",
@@ -46,6 +76,7 @@ const projects = [
       "Responsive Design",
       "CSS Animations",
     ],
+    livelink : "https://vishnu-portfolio-one-pi.vercel.app/",
     link: "https://github.com/Kvishnu1805",
   },
   {

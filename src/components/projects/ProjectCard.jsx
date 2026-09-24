@@ -1,11 +1,13 @@
 import placementImg from "../../assets/images/projects/placement.png";
 import weatherImg from "../../assets/images/projects/weather.png";
 import portfolioImg from "../../assets/images/projects/portfolio.png";
+import careeraiImg from "../../assets/images/projects/careerai.png"
 
 const projectImages = {
   "smart-placement-cell": placementImg,
   "portfolio-website": portfolioImg,
   "weather-webapp": weatherImg,
+  "career-ai" : careeraiImg
 };
 
 const ProjectCard = ({ project, onViewDetails, index = 0 }) => {
@@ -23,7 +25,7 @@ const ProjectCard = ({ project, onViewDetails, index = 0 }) => {
       ======================================== */}
       <div className="relative aspect-[16/10] overflow-hidden bg-slate-100 dark:bg-slate-800">
         <a
-          href={project.link || "https://github.com/Kvishnu1805"}
+          href={project.livelink || "https://github.com/Kvishnu1805"}
           className="block h-full w-full cursor-pointer"
           target="_blank"
           rel="noopener noreferrer"
